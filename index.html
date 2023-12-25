@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cresça seus investimentos apartir de hoje com o Summet Research, buscamos os melhores investimentos para você !">
+    <meta property="og:tittle" content="Summit investimentos">
+    <meta property="og:description" content="Confira as recomendações">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="website">
+    <title>Summet Research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+</head>
+    <body>
+        <header>
+            <nav class="nav collapsible">
+                <a href="/">
+                    <img class="nav__logo" src="sla/logo.svg" alt="">
+                </a>
+                <svg class="icon icon--white icon--primary nav__toggler">
+                    <use xlink:href="sla/sprite.svg#menu"></use>
+                </svg>
+                <ul class="list nav__list collapsible__content">
+                    <li class="nav__item"><a href="#">Carteiras</a></li>
+                    <li class="nav__item"><a href="#">Cripto</a></li>
+                    <li class="nav__item"><a href="#">Suporte</a></li>
+                    <li class="nav__item"><a href="#">Ações</a></li>
+                </ul>
+            </nav> 
+            
+            <!-- Nav bar -->
+            
+        </header>
+        <section class="blocl block--dark block--skewed-left">
+            <div class="container grid grid--1x2">
+                <header class="block__header hero__content">
+                    <h1 class="block__heading">Comece a investir agora</h1>
+                        <p class="hero__tagline">
+                            invista com os melhores analistas do mercado
+                        </p>
+                    <a href="" class="btn btn--accent btn--stretched">Saiba mais..</a>
+                </header>
+                    <picture>
+                        <source type="image/webp"
+                         srcset="sla/banner.webp 1x, sla/banner@2x.webp 2x"/>
+                        <source type="image/png" srcset="sla/banner.png 1x, sla/banner@2x.png 2x">
+                        <img class="hero__image" src="sla/banner.png" alt="">
+                    </picture>
+            </div>
+        </section>
+
+        <!-- hero -->
+
+        <section class="block container">
+            <header class="block__header">
+                <h2>Procure pelas melhores ações</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sapiente.
+                </p>
+            </header>
+            <div class="search input-group">
+                <input type="text" class="input" placeholder="procure algo...">
+                <button class="btn btn--accent">
+                    <svg class="icon icon--white icon-small">
+                        <use xlink:href="sla/sprite.svg#search">    </use>
+                    </svg>Busca</button>
+            </div>
+            <ul class="list search__products">
+                <a href="#">
+                    <li class="search__products-item badge">ETF
+                     </li>
+                </a>
+                <a href="#">
+                    <li class="search__products-item badge">Small
+                     </li>
+                </a>
+                <a href="#">
+                    <li class="search__products-item badge">Dividendos
+                     </li>
+                </a>
+                <a href="#">
+                    <li class="search__products-item badge">FIIs
+                     </li>
+                </a>
+                <a href="#">
+                    <li class="search__products-item badge">REITS
+                     </li>
+                </a>
+                <a href="#">
+                    <li class="search__products-item badge">S&P 500
+                     </li>
+                </a>
+        
+            </ul>
+        </section>
+
+        <!-- Barra de pesquisa -->
+
+        <section class="block container block-plan">
+            <div class="grid grid--1x3">
+                <div class="plan">
+                    <div class="card card--secundary">
+                      <header class="card__header">
+                        <h3 class="plan__name">Carteira Pequena</h3>
+                          <span class="plan__price">R$15</span>
+                          <span class="plan__billing-cycle">/mes</span>
+                          <span class="badge badge--small badge--secundary">10% Off</span>
+                            <span class="plan__description">Carteira para ganhos explosivos.</span>
+                      </header>
+                            <div class="card__body">
+                                <ul class="list list--tick">
+                                    <li class="list__item">Stock pick</li>
+                                    <li class="list__item">SMALL11</li>
+                                    <li class="list__item">ETF</li>
+                                </ul>
+                                <button class="btn btn--bloc btn--outline">Compre</button>
+                            </div>
+                        </div>
+                 </div>
+                 <div class="plan plan--popular">
+                    <div class="card card--primary">
+                      <header class="card__header">
+                        <h3 class="plan__name">Dividendos</h3>
+                          <span class="plan__price">R$25</span>
+                          <span class="plan__billing-cycle">/mes</span>
+                          <span class="badge badge--small badge--primary">10% Off</span>
+                            <span class="plan__description">Tenha uma renda extra mensal</span>
+                      </header>
+                            <div class="card__body">
+                                <ul class="list list--tick">
+                                    <li class="list__item">Pagadoras de Dividendos</li>
+                                    <li class="list__item">Fundos Imobiliários</li>
+                                    <li class="list__item">Renda Fixa</li>
+                                </ul>
+                                <button class="btn btn--bloc btn--outline">Compre</button>
+                            </div>
+                        </div>
+                 </div>
+                 <div class="plan">
+                    <div class="card card--secundary">
+                      <header class="card__header">
+                        <h3 class="plan__name">Criptomoedas</h3>
+                          <span class="plan__price">R$20</span>
+                          <span class="plan__billing-cycle">/mes</span>
+                          <span class="badge badge--small badge--secundary card--secundary">10% Off</span>
+                            <span class="plan__description">Carteira para ganhos explosivos.</span>
+                      </header>
+                            <div class="card__body">
+                                <ul class="list list--tick">
+                                    <li class="list__item">Bitcoin</li>
+                                    <li class="list__item">NFT</li>
+                                    <li class="list__item">DeFi</li>
+                                </ul>
+                                <button class="btn btn--bloc btn--outline">Compre</button>
+                            </div>
+                        </div>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Planos -->
+
+        <section class="block container">
+            <header class="block__header">
+                <h2>Os melhores gerenciamentos do seu portifolio</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, eius!</p>
+            </header>
+            <article class="grid grid--1x2 feature">
+                <div class="feature__content" data-aos="fade-right">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="sla/sprite.svg#report"></use>
+                        </svg>
+                    </span>
+                    <h3 class="zeature__heading">Receba as melhores recomendações</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea ad dolore voluptatum possimus debitis, velit amet ducimus harum veritatis incidunt.</p>
+                    <a href="#" class="link-arrow">Saiba Mais</a>
+                </div>
+                <picture data-aos="fade-left">
+                    <source type="image/jpg" srcset="sla/carteira.jpg 1x, sla/carteira@2x.jpg 2x">
+                    <img class="feature__image ts3" src="sla/carteira@2x.jpg" alt="">
+                </picture>
+            </article>
+            <article class="grid grid--1x2 feature">
+                <div class="feature__content"data-aos="fade-left">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="sla/sprite.svg#wealth"></use>
+                        </svg>
+                    </span>
+                    <h3 class="feature__heading">Receba as melhores recomendações</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea ad dolore voluptatum possimus debitis, velit amet ducimus harum veritatis incidunt.</p>
+                    <a href="#" class="link-arrow">Saiba Mais</a>
+                </div>
+                <picture data-aos="fade-right">
+                    <source type="image/jpg" srcset="sla/wealth.jpg 1x, sla/wealth@2x.jpg 2x">
+                    <img class="feature__image" src="sla/wealth@2x.jpg" alt="">
+                </picture>
+            </article>
+            <article class="grid grid--1x2 feature">
+                <div class="feature__content" data-aos="fade-right">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="sla/sprite.svg#support"></use>
+                        </svg>
+                    </span>
+                    <h3 class="feature__heading">Receba as melhores recomendações</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea ad dolore voluptatum possimus debitis, velit amet ducimus harum veritatis incidunt.</p>
+                    <a href="#" class="link-arrow">Saiba Mais</a>
+                </div>
+                <picture data-aos="fade-left">
+                    <source type="image/jpg" srcset="sla/support.jpg 1x, sla/support@2x.jpg 2x">
+                    <img class="feature__image ts3" src="sla/support@2x.jpg" alt="">
+                </picture>
+            </article>
+            <article class="grid grid--1x2 feature">
+                <div class="feature__content" data-aos="fade-left">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="sla/sprite.svg#news"></use>
+                        </svg>
+                    </span>
+                    <h3 class="feature__heading">Receba as melhores recomendações</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea ad dolore voluptatum possimus debitis, velit amet ducimus harum veritatis incidunt.</p>
+                    <a href="#" class="link-arrow">Saiba Mais</a>
+                </div>
+                <picture data-aos="fade-right">
+                    <source type="image/jpg" srcset="sla/noticia.jpg 1x, sla/noticia@2x.jpg 2x">
+                    <img class="feature__image" src="sla/noticia@2x.jpg" alt="">
+                </picture>
+            </article>
+        </section>
+
+        <!-- Feature -->
+
+        <section class="showcase block block--dark">
+            <h2 class="showcase__heading">As Melhores Recomendações De Criptmoedas</h2>
+            <div class="grid grid--1x2">
+                <div class="showcase__image">
+                    <picture>
+                        <source type="image/jpg" srcset="sla/showcase.jpg 1x, sla/showcase@2.jpg 2x">
+                        <img src="sla/showcase.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="showcase__content">
+                    <div class="media">
+                        <div class="media__image">
+                            <img src="sla/wallet.png" alt="">
+                        </div>
+                        <div class="media__body">
+                            <h3 class="media__title">Carteira do Bull Market</h3>
+                            <p class="media__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, consequuntur.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media__image">
+                            <img src="sla/learn.png" alt="">
+                        </div>
+                        <div class="media__body">
+                            <h3 class="media__title">Carteira do Bull Market</h3>
+                            <p class="media__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, consequuntur.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media__image">
+                            <img src="sla/market.png" alt="">
+                        </div>
+                        <div class="media__body">
+                            <h3 class="media__title">Carteira do Bull Market</h3>
+                            <p class="media__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, consequuntur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parte preta -->
+
+        <section class="block">
+            <div class="block__header">
+                <h2>O Que Os Nossos Clientes Dizem:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quas.</p>
+            </div>
+            <div class="container">
+                <div class="card testimonial">
+                    <grid class="grid grid--1x2">
+                        <div class="testimonial__image">
+                            <img src="sla/testimonial.png"
+                                 alt="Um cliente"
+                             />
+                             <span class="icon-container icon-container--accent">
+                                <svg class="icon icon--white icon-small">
+                                    <use xlink:href="sla/sprite.svg#quote"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <blockquote class="quote">
+                            <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam exercitationem velit unde earum doloremque fugit illo similique, nulla itaque voluptate. 
+                            </p>
+                            <footer>
+                                <div class="media">
+                                    <svg class="icon icon--primary media__icon">
+                                        <use xlink:href="sla/sprite.svg#line"></use>
+                                    </svg>
+                                    <div class="media__body">
+                                        <h3 class="media__title quote__author">Roberto Duarte</h3>
+                                        <p class="media__description quote__company">ABC Company</p>
+                                    </div>
+                                </div>
+                            </footer>
+                        </blockquote>
+                    </grid>
+                </div>
+            </div>
+        </section>
+
+        <!-- testemunho -->
+
+        <div class="callout callout--primary">
+            <div class="grid grid--1x2">
+                <div class="callout__content">
+                    <h2 class="callout__heading">Pronto para começar?</h2>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia impedit quaerat id voluptatem? Libero dicta amet vitae neque veritatis nemo.  
+                        </p>
+                </div>
+                <a href="#" class="btn btn--secundary btn--stretched">Comece agora</a>
+            </div>
+        </div>
+
+        <!-- Aviso -->
+
+        <footer class="block block-dark footer">
+            <div class="container grid">
+                <section class="collapsible footer__section">
+                    <header class="collapsible__header">
+                        <h2 class="collapsible__heading footer__heading">Stocks</h2>
+                            <svg class="icon icon--white icon--big collapsible__chevron">
+                                <use xlink:href="sla/sprite.svg#chevron"></use>
+                            </svg>
+                    </header>
+                    <div class="collapsible__content">
+                        <ul class="list">
+                            <li><a href="#">Brasil</a></li>
+                            <li><a href="#">Americanas</a></li>
+                            <li><a href="#">Global</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="collapsible footer__section">
+                    <header class="collapsible__header">
+                        <h2 class="collapsible__heading footer__heading">Carteiras</h2>
+                            <svg class="icon icon--white icon--big collapsible__chevron">
+                                <use xlink:href="sla/sprite.svg#chevron"></use>
+                            </svg>
+                    </header>
+                    <div class="collapsible__content">
+                        <ul class="list">
+                            <li><a href="#">Dividendos</a></li>
+                            <li><a href="#">Small Cap</a></li>
+                            <li><a href="#">Hedge</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="collapsible footer__section">
+                    <header class="collapsible__header">
+                        <h2 class="collapsible__heading footer__heading">Cripto</h2>
+                            <svg class="icon icon--white icon--big collapsible__chevron">
+                                <use xlink:href="sla/sprite.svg#chevron"></use>
+                            </svg>
+                    </header>
+                    <div class="collapsible__content">
+                        <ul class="list">
+                            <li><a href="#">Cursos</a></li>
+                            <li><a href="#">Carteiras</a></li>
+                            <li><a href="#">Live tranding</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="collapsible footer__section">
+                    <header class="collapsible__header">
+                        <h2 class="collapsible__heading footer__heading">Serviços</h2>
+                            <svg class="icon icon--white icon--big collapsible__chevron">
+                                <use xlink:href="sla/sprite.svg#chevron"></use>
+                            </svg>
+                    </header>
+                    <div class="collapsible__content">
+                        <ul class="list">
+                            <li><a href="#">Corretagem</a></li>
+                            <li><a href="#">Conta</a></li>
+                            <li><a href="#">Home Broker</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="collapsible footer__section">
+                    <header class="collapsible__header">
+                        <h2 class="collapsible__heading footer__heading">Suporte</h2>
+                            <svg class="icon icon--white icon--big collapsible__chevron">
+                                <use xlink:href="sla/sprite.svg#chevron"></use>
+                            </svg>
+                    </header>
+                    <div class="collapsible__content">
+                        <ul class="list">
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Telefone</a></li>
+                            <li><a href="#">Whatsapp</a></li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section class="footer__brand">
+                    <img src="sla/logo.svg" alt="">
+                    <p class="footer__copyright">Copyright 2023 Summit Research</p>
+                </section>
+                
+            </div>
+        </footer>
+
+        <!-- Rodapé -->
+
+        <script src="js/main.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init()
+        </script>
+    </body>
+</html>
